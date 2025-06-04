@@ -9,7 +9,7 @@ from conan.tools.files import load, update_conandata, copy, collect_libs
 
 class LibnameConan(ConanFile):
     name = "ebml"
-    version = "1.4.4"
+    version = "1.4.5"
     description = "a C++ libary to parse EBML files."
     # topics can get used for searches, GitHub topics, Bintray tags etc. Add here keywords about the library
     topics = ("conan", "container", "video")
